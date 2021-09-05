@@ -1,4 +1,4 @@
-package com.kako351.android.toybox.components.resource
+package com.kako351.android.toybox.components.system.resource
 
 import androidx.compose.ui.graphics.Color
 import com.kako351.android.toybox.components.R

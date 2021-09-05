@@ -1,11 +1,11 @@
-package com.kako351.android.toybox.components.resource
+package com.kako351.android.toybox.components.system.resource
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.darkColors
 import androidx.compose.material.lightColors
 import androidx.compose.runtime.Composable
-import com.kako351.android.toybox.components.typography.Typography
+import com.kako351.android.toybox.components.system.typography.Typography
 
 private val LightColorPalette = lightColors(
     primary = ToyRedLight,
