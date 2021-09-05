@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- light theme -->
+    <color name="toy_red_light">#FF0000</color>
+    <color name="toy_blue_light">#2F80ED</color>
+    <color name="toy_green_light">#27AE60</color>
+    <color name="toy_orange_light">#F2994A</color>
+
+    <!-- dark theme -->
+    <color name="toy_red_dark">#FF6161</color>
+    <color name="toy_blue_dark">#2D9CDB</color>
+    <color name="toy_green_dark">#6FCF97</color>
+    <color name="toy_orange_dark">#F2994A</color>
+</resources>
