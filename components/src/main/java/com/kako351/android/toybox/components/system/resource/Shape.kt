@@ -4,7 +4,7 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Shapes
 
 val Shapes = Shapes(
-    small = RoundedCornerShape(regularDimensions.roundedCornerSmall),
-    medium = RoundedCornerShape(regularDimensions.roundedCornerMedium),
-    large = RoundedCornerShape(regularDimensions.roundedCornerLarge)
+    small = RoundedCornerShape(defaultDimensions.roundedCornerSmall),
+    medium = RoundedCornerShape(defaultDimensions.roundedCornerMedium),
+    large = RoundedCornerShape(defaultDimensions.roundedCornerLarge)
 )

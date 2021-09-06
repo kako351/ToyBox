@@ -9,3 +9,4 @@ dependencyResolutionManagement {
 rootProject.name = "ToyBox"
 include ':toybox'
 include ':components'
+include ':model'

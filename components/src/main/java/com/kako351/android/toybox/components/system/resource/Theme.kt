@@ -10,13 +10,17 @@ import com.kako351.android.toybox.components.system.typography.Typography
 private val LightColorPalette = lightColors(
     primary = ToyRedLight,
     primaryVariant = ToyOrangeLight,
-    secondary = ToyBlueLight
+    secondary = ToyBlueLight,
+    surface = ToyRedLight,
+    background = ToyBackgroundLight
 )
 
 private val DarkColorPalette = darkColors (
     primary = ToyRedDark,
     primaryVariant = ToyOrangeDark,
-    secondary = ToyBlueDark
+    secondary = ToyBlueDark,
+    surface = ToyRedDark,
+    background = ToyBackgroundDark
 )
 
 @Composable
