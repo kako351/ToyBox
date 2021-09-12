@@ -12,6 +12,7 @@ class Dimensions (
     val spaceLarge: Dp,
     val elevationMedium: Dp,
     val cardLargeMaxHeight: Dp,
+    val indicatorSize: Dp
 )
 
 val defaultDimensions = Dimensions(
@@ -22,5 +23,6 @@ val defaultDimensions = Dimensions(
     spaceMedium = 8.dp,
     spaceLarge = 16.dp,
     elevationMedium = 4.dp,
-    cardLargeMaxHeight = 200.dp
+    cardLargeMaxHeight = 200.dp,
+    indicatorSize = 8.dp
 )

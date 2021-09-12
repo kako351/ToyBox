@@ -33,10 +33,10 @@ fun HomeContents() {
             text = "My new gear...",
             modifier = Modifier
                 .padding(
-                    start = defaultDimensions.spaceLarge,
-                    end = defaultDimensions.spaceLarge,
-                    top = defaultDimensions.spaceMedium,
-                    bottom = defaultDimensions.spaceMedium
+                    start = ToyBoxTheme.dimens.spaceLarge,
+                    end = ToyBoxTheme.dimens.spaceLarge,
+                    top = ToyBoxTheme.dimens.spaceMedium,
+                    bottom = ToyBoxTheme.dimens.spaceMedium
                 )
             )
         }
@@ -48,7 +48,7 @@ fun HomeContents() {
                         toy = toy,
                         modifier = Modifier
                             .width(LocalConfiguration.current.screenWidthDp.dp)
-                            .padding(defaultDimensions.spaceLarge)
+                            .padding(ToyBoxTheme.dimens.spaceLarge)
                     ) {
 
                     }

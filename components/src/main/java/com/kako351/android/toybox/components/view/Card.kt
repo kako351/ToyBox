@@ -35,9 +35,9 @@ import com.kako351.android.toybox.model.Toy
 @Composable
 fun CardLarge(toy: Toy, modifier: Modifier? = null,onClick: () -> Unit) {
     Card(
-        modifier = modifier ?: Modifier.padding(defaultDimensions.spaceLarge),
+        modifier = modifier ?: Modifier.padding(ToyBoxTheme.dimens.spaceLarge),
         shape = MaterialTheme.shapes.medium,
-        elevation = defaultDimensions.elevationMedium,
+        elevation = ToyBoxTheme.dimens.elevationMedium,
         backgroundColor = MaterialTheme.colors.background
     ) {
         Column(
@@ -50,10 +50,10 @@ fun CardLarge(toy: Toy, modifier: Modifier? = null,onClick: () -> Unit) {
                 contentDescription = toy.name,
                 contentScale = ContentScale.Crop,
                 modifier = Modifier
-                    .height(defaultDimensions.cardLargeMaxHeight)
+                    .height(ToyBoxTheme.dimens.cardLargeMaxHeight)
                     .fillMaxWidth()
             )
-            Body1(text = toy.title, modifier = Modifier.padding(defaultDimensions.spaceMedium))
+            Body1(text = toy.title, modifier = Modifier.padding(ToyBoxTheme.dimens.spaceMedium))
         }
     }
 }
